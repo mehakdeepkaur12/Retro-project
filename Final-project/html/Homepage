@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Retro Polaroid Camera Store - Capture your memories with instant prints!">
+  <meta name="robots" content="noindex, nofollow">
+  <!--Title-->
+  <title>Retro Polaroid Store</title>
+  <!--css-->
+  <link rel="stylesheet" href="../css/Homepage.css">
+  
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <!--logo-->
+    <div class="logo">Retail Polaroid Store</div>
+    <nav>
+      <ul>
+        <li><a href="Homepage.html" target="_blank">Home</a></li> <!-- Home page in a new tab -->
+        <li><a href="shop.html" target="_blank">Shop</a></li> <!-- Shop page in a new tab -->
+        <li><a href="contact.html" target="_blank">Contact</a></li> <!-- Contact page in a new tab -->
+        <li><a href="about.html" target="_blank">About</a></li><!--About page in a new tab-->
+      </ul>
+    </nav>
+    
+  </header>
+  
+
+  <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Capture Moments Instantly with Polaroid</h1>
+    <p>Experience the charm of instant photography with Polaroid cameras. Relive your memories, one click at a time!</p>
+    <a href="shop.html" class="btn">Shop Now</a>
+  </div>
+  <div class="hero-image">
+    <img src="../img/polaroid+sx70+that+vintage+lens+reviews.jpeg" alt="Polaroid Camera">
+  </div>
+</section>
+
+
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Why Choose Polaroid?</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <img src="../img/Polaroidsx70.jpeg" alt="Instant Prints">
+        <h3>Instant Prints</h3>
+        <p>Hold your memories in your hands within seconds!  A small and compact device that takes pictures and develops hardcopy instantly.</p>
+      </div>
+      <div class="feature">
+        <img src="../img/istockphoto-156881671-1024x1024.jpg" alt="Retro Design">
+        <h3>Classic Retro Design</h3>
+        <p>Timeless and iconic designs that never go out of style.</p>
+      </div>
+      <div class="feature">
+        <img src="../img/il_570xN.261411677.avif" alt="Easy to Use">
+        <h3>Simple and Fun</h3>
+        <p>Perfect for photographers of any skill level.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products">
+    <h2>Our Popular Cameras</h2>
+    <div class="products-grid">
+      <div class="product">
+        <img src="../img/Polaroidonestep2.jpeg" alt="Polaroid OneStep">
+        <h3>Polaroid OneStep</h3>
+        <p>$99.99</p>
+        <a href="product1.html" class="btn">View Details</a>
+      </div>
+      <div class="product">
+        <img src="../img/polaroid+sx70+that+vintage+lens+reviews.jpeg" alt="Polaroid SX-70">
+        <h3>Polaroid SX-70</h3>
+        <p>$149.99</p>
+        <a href="product2.html" class="btn">View Details</a>
+      </div>
+      <div class="product">
+        <img src="../img/polaroaid600.jpg" alt="Polaroid 600">
+        <h3>Polaroid 600</h3>
+        <p>$129.99</p>
+        <a href="product3.html" class="btn">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy 2024 Retro Polaroid Store | All Rights Reserved</p>
+  </footer>
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

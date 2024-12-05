@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Product page- 2">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Polaroid OneStep | Retro Polaroid Store</title>
+  <link rel="stylesheet" href="../css/product123.css">
+</head>
+<body class="product-page-2">
+    <!-- Product Page 1 content -->
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Product Section -->
+<section class="container">
+    <div class="product-image">
+      <img src="../img/Polaroidonestep3.webp" alt="Polaroid OneStep Camera">
+    </div>
+    <div class="product-info">
+      <h1>Polaroid OneStep</h1>
+      <p class="price">$99.99</p>
+      <p class="description">
+        The Polaroid OneStep camera brings instant photography to your fingertips. Capture moments instantly and cherish them forever with this iconic vintage camera.
+      </p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy 2024 Retro Polaroid Store. All rights reserved.</p>
+  </footer>
+
+ 
+</body>
+</html>

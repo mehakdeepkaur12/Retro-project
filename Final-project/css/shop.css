@@ -1,0 +1,151 @@
+ /* css of shop page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    margin: 0;
+  }
+  
+  /* Global Styles for Links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between; /* Pushes logo and nav to opposite sides */
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex: 0 0 auto; /* Ensures logo stays in its position */
+  }
+  
+  header nav {
+    flex: 1; /* Takes up remaining space for alignment */
+    text-align: right; /* Aligns nav to the right */
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: inline-flex; /* Ensures links are horizontal */
+    gap: 2rem; /* Space between navigation links */
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline; /* Ensures items remain inline */
+  }
+  
+  header nav ul li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #f39c12;
+  }
+  
+ /* Shop Section */
+ .shop {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  /* Shop Page Heading with full-line background */
+  .shop h1 {
+    font-size: 2.5rem;
+    color: white; /* White text color for contrast */
+    padding: 1rem; /* Padding around the text */
+    background-color: #3498db; /* Background color of the entire heading */
+    text-align: center; /* Centers the text */
+    margin: 0; /* Remove default margin */
+  }
+  
+  
+  /* Shop Page Description */
+  .shop p {
+    font-weight: bold; /* Makes the text bold */
+    font-size: 1.2rem; /* Optional: You can adjust the font size if needed */
+    color: #34495e; /* Change the text color if you want */
+    margin-bottom: 1.5rem;
+  }
+  
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product h3 {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    color: #2c3e50;
+  }
+  
+  .product p {
+    font-size: 1.1rem;
+    color: #e74c3c;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .product .btn {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }

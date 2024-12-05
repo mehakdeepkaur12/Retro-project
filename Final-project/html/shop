@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Retro Polaroid Camera Shop - Take the best price cameras with you">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Shop | Retro Polaroid Store</title>
+  <!--css-->
+  <link rel="stylesheet" href="../css/shop.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Homepage.html" target="_blank">Home</a></li> <!-- Home page in a new tab -->
+        <li><a href="shop.html" target="_blank">Shop</a></li> <!-- Shop page in a new tab -->
+        <li><a href="contact.html" target="_blank">Contact</a></li> <!-- Contact page in a new tab -->
+        <li><a href="about.html" target="_blank">About</a></li><!--About page in a new tab-->
+      </ul>
+    </nav>
+    
+  </header>
+ 
+  
+  <!-- Shop Section -->
+  <main class="shop">
+    <h1>Shop Our Collection</h1>
+    <p>Discover iconic Polaroid cameras that make capturing memories a breeze.</p>
+    <div class="products-grid">
+      <!-- Product 1 -->
+      <div class="product">
+        <img src="../img/polaroid+sx70+that+vintage+lens+reviews.jpeg" alt="Polaroid SX-70">
+        <h3>Polaroid SX-70</h3>
+        <p>$149.99</p>
+        <a href="product1.html" class="btn">View Details</a>
+      </div>
+      <!-- Product 2 -->
+      <div class="product">
+        <img src="../img/Polaroidonestep3.webp" alt="Polaroid OneStep">
+        <h3>Polaroid OneStep</h3>
+        <p>$99.99</p>
+        <a href="product2.html" class="btn">View Details</a>
+      </div>
+      <!-- Product 3 -->
+      <div class="product">
+        <img src="../img/onestep600.webp" alt="Polaroid 600">
+        <h3>Polaroid 600</h3>
+        <p>$129.99</p>
+        <a href="product3.html" class="btn">View Details</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <script src="script.js"></script>
+</body>
+</html>

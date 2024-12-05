@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Product page- 3">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Polaroid 600 | Retro Polaroid Store</title>
+  <link rel="stylesheet" href="../css/product123.css">
+</head>
+<body class="product-page-3">
+    <!-- Product Page 1 content -->
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Product Section -->
+<section class="container">
+    <div class="product-image">
+      <img src="../img/polaroaid600.jpg" alt="Polaroid 600 Camera">
+    </div>
+    <div class="product-info">
+      <h1>Polaroid 600</h1>
+      <p class="price">$129.99</p>
+      <p class="description">
+        The Polaroid 600 is the classic instant camera that captures life's moments with ease. With a simple design and easy-to-use interface, it is perfect for both beginners and enthusiasts.
+      </p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy 2024 Retro Polaroid Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
